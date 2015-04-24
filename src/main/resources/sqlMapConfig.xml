@@ -3,11 +3,11 @@
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <!-- 别名  -->
-<!--     <typeAliases>
-        <typeAlias type="com.darren.web.user.po.User" alias="User" />
+    <typeAliases>
+        <typeAlias type="com.darren.comm.user.po.User" alias="User" />
     </typeAliases>
 
     <mappers>
-        <mapper resource="com/darren/web/user/map/User.xml" />
-    </mappers> -->
+        <mapper resource="com/darren/back/back/user/map/User.xml" />
+    </mappers>
 </configuration>

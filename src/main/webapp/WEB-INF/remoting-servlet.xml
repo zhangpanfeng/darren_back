@@ -10,6 +10,6 @@
      <!-- 用户服务 -->
     <bean name="/userClientServiceRemote" class="org.springframework.remoting.caucho.HessianServiceExporter">
         <property name="service" ref="userClientServiceRemote"/>
-        <property name="serviceInterface" value="com.darren.comm.user.client.service.UserClientService"/>
+        <property name="serviceInterface" value="com.darren.comm.client.user.service.UserClientService"/>
     </bean>
 </beans>
